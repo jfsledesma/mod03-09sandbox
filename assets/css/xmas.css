@@ -1,7 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 .menu {
@@ -26,6 +26,10 @@
 .content {
 	height: 70vh;
 	background-color: rgba(255,255,255, 0.55);
+}
+
+.content > p {
+	margin: 0 0px 10px 15px;
 }
 
 img {
@@ -67,7 +71,7 @@ li > a {
 
 
 .footer {
-	height: 325px;
+	height: 300px;
 	clear: both;
 	background-color: #BB2528;
 	border-top: 2px solid #146B3A;
@@ -78,18 +82,18 @@ li > a {
 	border-radius: 10px;
 	width: 30.08%;
 	height: 130px;
-	margin: 10px 1.08%;
+	margin: 5px 1.08%;
 	background-color: #EA4630;
 	border: 5px dotted #146B3A;
 }
 
 .username {
 	margin: 5px 0px 5px 20px;
-	font-size: 16px;
+	font-size: 18px;
 }
 
 .comment {
-	font-size: 11px;
+	font-size: 12px;
 	overflow: hidden;
 }
 
